@@ -1,0 +1,10 @@
+{
+  "name": "ecs-robot-node",
+  "version": "1.0.0",
+  "repository": "https://github.com/guojindai/ecs-robot-node.git",
+  "author": "Guo Jindai <guojindai@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.7"
+  }
+}
