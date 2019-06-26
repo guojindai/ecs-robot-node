@@ -5,13 +5,13 @@ const key = require('./key');
 const client = new Core(Object.assign({}, config, key));
 
 const params = {
-  "InstanceId": "i-6wef1ci2ftbc8ghmgxq8"
+  "RegionId": "ap-northeast-1"
 };
 const requestOption = {
   method: 'POST',
 };
 
-client.request('StartInstance', params, requestOption).then((result) => {
+client.request('DescribeInstanceStatus', params, requestOption).then((result) => {
   console.log(JSON.stringify(result));
 }, (ex) => {
   console.log(ex);

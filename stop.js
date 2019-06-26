@@ -11,7 +11,7 @@ const requestOption = {
   method: 'POST',
 };
 
-client.request('StartInstance', params, requestOption).then((result) => {
+client.request('StopInstance', params, requestOption).then((result) => {
   console.log(JSON.stringify(result));
 }, (ex) => {
   console.log(ex);
